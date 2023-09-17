@@ -6,7 +6,7 @@ import study.datajpa.entity.Member;
 import javax.persistence.EntityManager;
 import java.util.List;
 
-@RequiredArgsConstructor //final
+@RequiredArgsConstructor
 public class MemberRepositoryCustomImpl implements MemberRepositoryCustom {
 
     private final EntityManager em;
